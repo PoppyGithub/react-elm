@@ -1,0 +1,14 @@
+@import '../../assets/css/_color.scss';
+.wrapper {
+  position: relative;
+  min-height: 100%;
+  background: -webkit-linear-gradient(#fc3c48, #fd8740, #ff5767, #d74090);
+  background: -o-linear-gradient(#fc3c48, #fd8740, #ff5767, #d74090);
+  background: -moz-linear-gradient(#fc3c48, #fd8740, #ff5767, #d74090);
+  background: linear-gradient(#fc3c48, #fd8740, #ff5767, #d74090);
+  padding-bottom: 30px;
+  .header{
+    height: 90px;
+    background: $PictonBlue;
+  }
+}
