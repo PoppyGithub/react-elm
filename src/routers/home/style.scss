@@ -5,22 +5,10 @@
   min-height: 100%;
   background: $WildSand;
   padding-bottom: 30px;
-  .header {
-    height: 90px;
-    line-height: 90px;
-    background: $PictonBlue;
-    padding: 0 30px;
-    box-sizing: border-box;
-    .head_logo {
-      float: left;
-      font-size: 32px;
-      color: $White;
-    }
-    .login_span {
-      float: right;
-      font-size: 32px;
-      color: $White;
-    }
+  .head_logo {
+    float: left;
+    font-size: 32px;
+    color: $White;
   }
   .city_nav {
     padding: 15px 30px;

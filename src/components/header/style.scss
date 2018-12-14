@@ -1,0 +1,41 @@
+@import '../../assets/css/_color.scss';
+
+.header {
+  height: 90px;
+  line-height: 90px;
+  background: $PictonBlue;
+  padding: 0 30px;
+  box-sizing: border-box;
+  .head_goback{
+    position: absolute;
+    left: 30px;
+    top: 0;
+    span{
+      color: $White;
+      font-size: 30px;
+    }
+  }
+  .login_span {
+    float: right;
+    font-size: 32px;
+    color: $White;
+  }
+  .title_head{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    color: $White;
+    font-size: 30px;
+  }
+  .head_login{
+    position: absolute;
+    right: 30px;
+    top: 0;
+    text-decoration: none;
+    span{
+      color: $White;
+      font-size: 30px;
+    }
+  }
+}
